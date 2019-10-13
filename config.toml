@@ -1,3 +1,30 @@
-baseURL = "http://example.org/"
+baseURL = "https://jsvcycling.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Joshua Vega"
+copyright = "2019 Joshua Vega."
+
+[params]
+author = "Joshua Vega"
+description = "The personal website of Joshua Vega."
+mainSections = ["posts"]
+
+[[menu.main]]
+identifier = "home"
+name = "Home"
+title = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+title = "About"
+url = "/about"
+weight = 2
+
+[[menu.main]]
+identifier = "cv"
+name = "CV"
+title = "CV"
+url = "/cv"
+weight = 0

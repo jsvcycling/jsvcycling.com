@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    {{- if .IsHome }}
+    <meta name="description" content="{{ .Site.Params.Description }}">
+    {{- else if .Description }}
+    <meta name="description" content="{{ .Description }}">
+    {{- end }}
+
+    {{ hugo.Generator }}
+
+    <title>{{ if not .IsHome }}{{ .Site.Title }} &middot; {{end}}{{ .Site.Title }}</title>
+
+    <base href="{{ .Site.BaseURL }}">
+    <link rel="canonical" href="{{ .Permalink }}">
+  </head>
+
+  <body>
+    <header>
+      <h2><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h2>
+
+      <nav>
+        {{- range .Site.Menus.main }}
+          <a href="{{ .URL }}">{{ .Name }}</a>
+        {{- end }}
+      </nav>
+    </header>
+
+    {{- block "main" . }}{{ end }}
+
+  </body>
+</html>
