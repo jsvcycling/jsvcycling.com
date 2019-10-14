@@ -1,12 +1,16 @@
 baseURL = "https://jsvcycling.com/"
 languageCode = "en-us"
-title = "Joshua Vega"
-copyright = "2019 Joshua Vega."
+title = "Joshua Vega's Blog"
+copyright = "2019 Joshua Vega. All Rights Reserved."
 
 [params]
 author = "Joshua Vega"
 description = "The personal website of Joshua Vega."
+tagline = "I write code and stuff..."
 mainSections = ["posts"]
+
+[permalinks]
+posts = "/posts/:year/:month/:slug"
 
 [[menu.main]]
 identifier = "home"
@@ -16,15 +20,15 @@ url = "/"
 weight = 1
 
 [[menu.main]]
+identifier = "curriculum-vitae"
+name = "Curriculum Vitae"
+title = "Curriculum Vitae"
+url = "/curriculum-vitae"
+weight = 2
+
+[[menu.main]]
 identifier = "about"
 name = "About"
 title = "About"
 url = "/about"
-weight = 2
-
-[[menu.main]]
-identifier = "cv"
-name = "CV"
-title = "CV"
-url = "/cv"
-weight = 0
+weight = 3

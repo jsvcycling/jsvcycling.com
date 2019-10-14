@@ -5,19 +5,15 @@
       {{- $Pages = where site.RegularPages "Type" "in" site.Params.MainSections }}
     {{- end }}
 
-    <section>
-      <header>
-        <h1>Posts</h1>
-      </header>
+    <section class="content">
+      <h2 class="title">{{ .Site.Title }}</h2>
 
       {{- range $Pages }}
-      <article>
-        {{- if .Date }}
+      <article class="is-size-5">
         <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
           {{ .Date.Format "2006-01-02" }}
-        </time>
-        {{- end }}
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </time> - 
+        <a href="{{ .Permalink }}"><strong>{{ .Title }}</strong> </a>
       </article>
       {{- end }}
     </section>
