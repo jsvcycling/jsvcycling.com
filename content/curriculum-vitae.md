@@ -1,5 +1,5 @@
 ---
 title: "Curriculum Vitae"
-draft: true
+draft: false
 ---
 
