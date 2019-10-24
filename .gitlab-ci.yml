@@ -2,11 +2,17 @@ include:
   - template: Auto-DevOps.gitlab-ci.yml
 
 production:
-  stage: production
-  script:
-    - echo "Deploy to production"
-  environment:
-    name: production
-    url: https://jsvcycling.com
-  only:
+<<: *production_template
+environment:
+  name: production
+  url: https://jsvcycling.com
+only:
+  refs:
     - master
+  kubernetes: active
+except:
+  variables:
+    - $STAGING_ENABLED
+    - $CANARY_ENABLED
+    - $INCREMENTAL_ROLLOUT_ENABLED
+    - $INCREMENTAL_ROLLOUT_MODE
