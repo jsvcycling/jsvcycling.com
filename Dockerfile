@@ -3,9 +3,6 @@
 #
 FROM alpine:latest AS build
 
-ARG BUILD_DRAFTS=-D
-ARG BASE_URL=http://localhost:8080/
-
 # 1. Install Git and Hugo.
 RUN apk add --no-cache hugo git
 
@@ -14,7 +11,7 @@ COPY . /site
 WORKDIR /site
 
 # 3. Get Bulma and Run Hugo.
-RUN git submodule update --init && hugo --baseURL ${BASE_URL} ${BUILD_DRAFTS}
+RUN git submodule update --init && hugo
 
 #
 # Stage 2: Run the site on NGINX.
