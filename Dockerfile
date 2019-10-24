@@ -20,7 +20,6 @@ FROM nginx:alpine
 
 WORKDIR /usr/share/nginx/html
 
-RUN echo ${BASE_URL}
 RUN rm -fr * .??* && sed -i 's/80/5000/g' /etc/nginx/conf.d/default.conf
 COPY --from=build /site/public /usr/share/nginx/html
 
