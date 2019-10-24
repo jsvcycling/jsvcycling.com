@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-draft: false
+hasPermalink: false
 ---
 
 My name is Joshua Vega.

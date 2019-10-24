@@ -1,12 +1,14 @@
     {{define "main" }}
     <article class="content">
-      <h2 class="title">{{ .Title }}</h2>
+      <h1 class="title">{{ .Title }}</h1>
       <em>
         {{- if .Date }}
           Published on {{ .Date.Format "2006-01-02" }}
           on <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a> -
         {{- end }}
-        <a href="{{ .URL }}">Permalink</a>
+        {{- if .Params.hasPermalink }}
+          <a href="{{ .URL }}">Permalink</a>
+        {{- end }}
       </em>
 
       <hr />
