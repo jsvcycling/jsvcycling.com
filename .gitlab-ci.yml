@@ -1,0 +1,12 @@
+include:
+  - template: Auto-DevOps.gitlab-ci.yml
+
+deploy_to_prod:
+  stage: deploy
+  script:
+    - echo "Deploy to production"
+  environment:
+    name: production
+    url: https://jsvcycling.com
+  only:
+    - master
