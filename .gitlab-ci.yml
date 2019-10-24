@@ -19,7 +19,7 @@ include:
     - auto-deploy persist_environment_url
   environment:
     name: production
-    url: http://jsvcycling.com
+    url: http://www.jsvcycling.com
   artifacts:
     paths: [environment_url.txt]
 
