@@ -12,6 +12,10 @@ mainSections = ["posts"]
 [permalinks]
 posts = "/posts/:year/:month/:slug"
 
+[blackfriday]
+plainIDAnchors = true
+hrefTargetBlank = true
+
 [[menu.main]]
 identifier = "home"
 name = "Home"
