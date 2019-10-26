@@ -2,6 +2,9 @@ baseURL = "https://jsvcycling.com/"
 languageCode = "en-us"
 title = "Joshua Vega's Blog"
 copyright = "2019 Joshua Vega. All Rights Reserved."
+pygmentsCodeFences = true
+pygmentsStyle = "pygments"
+pygmentsOptions="linenos=table"
 
 [params]
 author = "Joshua Vega"
@@ -13,7 +16,6 @@ mainSections = ["posts"]
 posts = "/posts/:year/:month/:slug"
 
 [blackfriday]
-plainIDAnchors = true
 hrefTargetBlank = true
 
 [[menu.main]]
@@ -36,3 +38,21 @@ name = "About"
 title = "About"
 url = "/about/"
 weight = 3
+
+[[menu.social]]
+identifier = "github"
+name = "GitHub"
+title = "GitHub"
+url = "https://github.com/jsvcycling"
+
+[[menu.social]]
+identifier = "gitlab"
+name = "GitLab"
+title = "GitLab"
+url = "https://gitlab.com/jsvcycling"
+
+[[menu.social]]
+identifier = "twitter"
+name = "Twitter"
+title = "Twitter"
+url = "https://twitter.com/jsvcycling"

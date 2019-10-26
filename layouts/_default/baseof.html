@@ -17,7 +17,7 @@
     {{ $style := resources.Get "sass/main.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
 
-    <base href="{{ .Site.BaseURL }}">
+    <base href="{{ .Permalink }}">
     <link rel="canonical" href="{{ .Permalink }}">
   </head>
 
@@ -43,6 +43,10 @@
                 <hr />
                 {{- range .Site.Menus.main }}
                 <p><a href="{{ .URL }}">{{ .Name }}</a></p>
+                {{- end }}
+                <hr />
+                {{- range .Site.Menus.social }}
+                <p><a href="{{ .URL }}" target="_blank">{{ .Name }}</a></p>
                 {{- end }}
               </div>
             </div>
