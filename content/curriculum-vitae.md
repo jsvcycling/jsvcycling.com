@@ -5,22 +5,25 @@ hasPermalink: false
 
 ## Experience
 
-**Associate Consultant/Software Engineer I** (Feb 2019 to Present)<br />
+**Consultant** (April 2020 -- Present)<br />
+*Daugherty Business Solutions*, Franklin Lakes, NJ
+
+**Associate Consultant** (February 2019 -- April 2020)<br />
 *Daugherty Business Solutions*, Franklin Lakes, NJ
 
 **CS Teaching Assistant** (Spring 2019)<br />
 *New Jersey Institute of Technology*, Newark, NJ
 
-**Research Assistant** (Apr 2017 to Dec 2018)<br />
+**Research Assistant** (April 2017 -- December 2018)<br />
 *New Jersey Institute of Technology*, Newark, NJ
 
-**Summer Research Intern** (Apr 2016 to Sep 2016)<br />
+**Summer Research Intern** (April 2016 -- September 2016)<br />
 *New Jersey Institute of Technology*, Newark, NJ
 
-**Explorer's Program Intern** (Aug 2013 to Aug 2015)<br />
+**Explorer's Program Intern** (August 2013 -- August 2015)<br />
 *The Newark Museum*, Newark, NJ
 
-**Research Intern** (Jul 2013 to Jan 2015)<br />
+**Research Intern** (July 2013 -- January 2015)<br />
 *New York University*, New York, NY
 
 ## Achievements
@@ -30,10 +33,10 @@ hasPermalink: false
 
 ## Education
 
-**M.S. Computer Science** (Jan 2019 to Present)<br />
+**M.S. Computer Science** (January 2019 -- Present)<br />
 *New Jersey Institute of Technology*, Newark, NJ
 
-**B.S. Computer Science** (Sep 2015 to Dec 2018)<br />
+**B.S. Computer Science** (September 2015 -- December 2018)<br />
 *New Jersey Institute of Technology*, Newark, NJ<br />
 
 ## Publications
