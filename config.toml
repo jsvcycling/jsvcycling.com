@@ -6,6 +6,9 @@ pygmentsCodeFences = true
 pygmentsStyle = "pygments"
 pygmentsOptions="linenos=table"
 
+[markup.goldmark.renderer]
+unsafe = true
+
 [params]
 author = "Joshua Vega"
 description = "The personal website of Joshua Vega."
