@@ -26,6 +26,14 @@ hasPermalink: false
 **Research Intern** (July 2013 -- January 2015)<br />
 *New York University*, New York, NY
 
+## Certifications
+
+[**Apache Cassandra 3.x Developer Associate**](https://academy.datastax.com/certs/lookup/9d17aae0-c16a-4f77-8757-44333673bab4) (May 2020 -- )<br />
+*DataStax*
+
+[**ICAgile Certified Professional**](https://www.icagile.com/Certification/Verify-Credentials/ctl/UserDetails/mid/697/uid/6a773626-1675-4775-bb5e-b1bc48f499a4) (May 2019 -- )<br />
+*ICAgile*
+
 ## Achievements
 
 **Eagle Scout Award** (2014)<br />
@@ -33,7 +41,7 @@ hasPermalink: false
 
 ## Education
 
-**M.S. Computer Science** (January 2019 -- Present)<br />
+**M.S. Computer Science** (January 2019 -- May 2020)<br />
 *New Jersey Institute of Technology*, Newark, NJ
 
 **B.S. Computer Science** (September 2015 -- December 2018)<br />
