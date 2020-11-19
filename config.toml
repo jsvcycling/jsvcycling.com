@@ -35,13 +35,6 @@ title = "Curriculum Vitae"
 url = "/curriculum-vitae/"
 weight = 2
 
-[[menu.main]]
-identifier = "about"
-name = "About"
-title = "About"
-url = "/about/"
-weight = 3
-
 [[menu.social]]
 identifier = "github"
 name = "GitHub"
