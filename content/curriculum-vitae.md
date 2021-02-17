@@ -5,10 +5,13 @@ hasPermalink: false
 
 ## Experience
 
-**Consultant** (April 2020 -- Present)<br />
+**Consultant, Software Engineer II** (February 2021 -- Present)<br />
 *Daugherty Business Solutions*, Franklin Lakes, NJ
 
-**Associate Consultant** (February 2019 -- April 2020)<br />
+**Consultant, Software Engineer I** (April 2020 -- February 2021)<br />
+*Daugherty Business Solutions*, Franklin Lakes, NJ
+
+**Associate Consultant, Software Engineer I** (February 2019 -- April 2020)<br />
 *Daugherty Business Solutions*, Franklin Lakes, NJ
 
 **CS Teaching Assistant** (Spring 2019)<br />
