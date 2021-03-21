@@ -5,8 +5,14 @@ hasPermalink: false
 
 ## In Progress
 
-* **Inverting the Pyramid** by Jonathan Wilson
+**Fiction**
+
+* **Atlas Shrugged** by Ayn Rand
 * **Moriarty** by Anthony Horowitz
+
+**Non-Fiction**
+
+* **Inverting the Pyramid** by Jonathan Wilson
 
 # 2021
 
