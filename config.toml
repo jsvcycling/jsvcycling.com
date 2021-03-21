@@ -1,7 +1,7 @@
 baseURL = "https://jsvcycling.com/"
 languageCode = "en-us"
 title = "Joshua Vega's Blog"
-copyright = "2019 Joshua Vega. All Rights Reserved."
+copyright = "2019-2021 Joshua Vega. All Rights Reserved."
 pygmentsCodeFences = true
 pygmentsStyle = "pygments"
 pygmentsOptions="linenos=table"
