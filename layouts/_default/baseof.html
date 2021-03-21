@@ -12,13 +12,16 @@
 
     {{ hugo.Generator }}
 
-    <title>{{ if not .IsHome }}{{ .Title }} &middot; {{end}}{{ .Site.Title }}</title>
+    <title>{{ if not .IsHome }}{{ .Title }} | {{end}}{{ .Site.Title }}</title>
 
-    {{ $style := resources.Get "sass/main.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+    {{- $style := resources.Get "sass/main.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
 
     <base href="{{ .Permalink }}">
     <link rel="canonical" href="{{ .Permalink }}">
+
+    {{- $favicon := resources.Get "img/profile.png" }}
+    <link rel="shortcut icon" type="image/png" href="{{ $favicon.Permalink }}">
   </head>
 
   <body>
