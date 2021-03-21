@@ -17,6 +17,7 @@ mainSections = ["posts"]
 
 [permalinks]
 posts = "/posts/:year/:month/:slug"
+reading = "/reading/:year/:slug"
 
 [blackfriday]
 hrefTargetBlank = true
@@ -29,11 +30,18 @@ url = "/"
 weight = 1
 
 [[menu.main]]
+identifier = "reading"
+name = "Reading List"
+title = "Reading List"
+url = "/reading/"
+weight = 2
+
+[[menu.main]]
 identifier = "curriculum-vitae"
 name = "Curriculum Vitae"
 title = "Curriculum Vitae"
 url = "/curriculum-vitae/"
-weight = 2
+weight = 3
 
 [[menu.social]]
 identifier = "github"
