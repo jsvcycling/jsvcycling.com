@@ -1,5 +1,5 @@
 ---
-title: "My Reading List"
+title: "Reading List"
 hasPermalink: false
 ---
 
