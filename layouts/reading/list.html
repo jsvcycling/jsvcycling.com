@@ -3,26 +3,63 @@
     {{- $Completed := where .Pages ".Params.enddate" "ne" "" }}
 
     <section>
-      <h1 class="title">Reading List</h1>
-
-      <hr />
+      <h1 class="title">Reading List</h1><hr />
 
       <h2 class="title is-3">In Progress</h2>
       <section class="content">
-        <ul>
-          {{- range $InProgress.ByTitle }}
-            <li><a href="{{ .Permalink }}"><strong>{{ .Title }}</strong></a> by {{ .Params.Author }}</li>
-          {{- end }}
-        </ul>
-      </section>
-      {{- range $Completed.GroupByParamDate "enddate" "2006" }}
-        <h2 class="title is-3">{{ .Key }}</h2>
-        <section class="content">
+        {{- $Fiction := where $InProgress ".Params.isfiction" true }}
+        {{- $NonFiction := where $InProgress ".Params.isfiction" false }}
+
+        <h3 class="title is-6">Fiction</h3>
+        {{- if $Fiction }}
           <ul>
-            {{- range .Pages.ByTitle }}
+            {{- range $Fiction.ByTitle }}
               <li><a href="{{ .Permalink }}"><strong>{{ .Title }}</strong></a> by {{ .Params.Author }}</li>
             {{- end }}
           </ul>
+        {{- else }}
+          <p class="is-italic">None</p>
+        {{- end }}
+
+        <h3 class="title is-6">Non-Fiction</h3>
+        {{- if $NonFiction }}
+          <ul>
+            {{- range $NonFiction.ByTitle }}
+              <li><a href="{{ .Permalink }}"><strong>{{ .Title }}</strong></a> by {{ .Params.Author }}</li>
+            {{- end }}
+          </ul>
+        {{- else }}
+          <p class="is-italic">None</p>
+        {{- end }}
+      </section>
+
+      {{- range $Completed.GroupByParamDate "enddate" "2006" }}
+        <h2 class="title is-3">{{ .Key }}</h2>
+        <section class="content">
+          {{- $Fiction := where .Pages ".Params.isfiction" true }}
+          {{- $NonFiction := where .Pages ".Params.isfiction" false }}
+
+          <h3 class="title is-6">Fiction</h3>
+          {{- if $Fiction }}
+            <ul>
+              {{- range $Fiction.ByTitle }}
+                <li><a href="{{ .Permalink }}"><strong>{{ .Title }}</strong></a> by {{ .Params.Author }}</li>
+              {{- end }}
+            </ul>
+          {{- else }}
+            <p class="is-italic">None</p>
+          {{- end }}
+
+          <h3 class="title is-6">Non-Fiction</h3>
+          {{- if $NonFiction }}
+            <ul>
+              {{- range $NonFiction.ByTitle }}
+                <li><a href="{{ .Permalink }}"><strong>{{ .Title }}</strong></a> by {{ .Params.Author }}</li>
+              {{- end }}
+            </ul>
+          {{- else }}
+            <p class="is-italic">None</p>
+          {{- end }}
         </section>
       {{- end }}
     </section>
