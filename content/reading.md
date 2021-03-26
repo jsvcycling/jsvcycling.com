@@ -18,7 +18,7 @@ hasPermalink: false
 
 **Fiction**
 
-* [**Anxious People**](/reading/anxious-people) by Fredrik Backman
+* [**Anxious People**](/reading/2021/anxious-people) by Fredrik Backman
 
 **Non-Fiction**
 

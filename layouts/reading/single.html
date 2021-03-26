@@ -16,7 +16,7 @@
         </tr>
         <tr>
           <th>Publisher:</th>
-          <td>{{ .Params.Publisher }} ({{ .Params.PublishDate.Format "January 2, 2006" }})</td>
+          <td>{{ .Params.Publisher }} ({{ dateFormat "January 2, 2006" .Params.BookPublishDate }})</td>
         </tr>
         <tr>
           <th>Language:</th>
