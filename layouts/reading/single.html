@@ -12,7 +12,7 @@
       <tbody>
         <tr>
           <th>Category:</th>
-          <td>{{ .Params.Category }}</td>
+          <td>{{ delimit .Params.Categories ", " }}</td>
         </tr>
         <tr>
           <th>Publisher:</th>
@@ -44,7 +44,13 @@
         </tr>
         <tr>
           <th>My Rating:</th>
-          <td>{{ .Params.Rating }}/10</td>
+          <td>
+            {{- if .Params.Rating }}
+              {{ .Params.Rating }}
+            {{- else }}
+              --
+            {{- end }}/10
+          </td>
         </tr>
       </tbody>
     </table>
@@ -52,7 +58,11 @@
     <hr />
 
     <section class="content">
-      {{- .Content }}
+      {{- if .Content }}
+        {{- .Content }}
+      {{- else }}
+        <p class="is-italic">There's nothing here yet.</p>
+      {{- end }}
     </section>
   </article>
   {{ end }}

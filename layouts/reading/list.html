@@ -1,6 +1,6 @@
   {{- define "main" }}
-    {{- $InProgress := where .Pages ".Params.date" "eq" nil }}
-    {{- $Completed := where .Pages ".Params.date" "ne" nil }}
+    {{- $InProgress := where .Pages ".Params.enddate" "eq" "" }}
+    {{- $Completed := where .Pages ".Params.enddate" "ne" "" }}
 
     <section>
       <h1 class="title">Reading List</h1>
@@ -15,7 +15,7 @@
           {{- end }}
         </ul>
       </section>
-      {{- range $Completed.GroupByParamDate "endDate" "2006" }}
+      {{- range $Completed.GroupByParamDate "enddate" "2006" }}
         <h2 class="title is-3">{{ .Key }}</h2>
         <section class="content">
           <ul>
