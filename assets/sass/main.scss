@@ -2,7 +2,17 @@
 
 $gap: 192px;
 
-@import "bulma/bulma.sass";
+@import "bulma/sass/utilities/_all.sass";
+@import "bulma/sass/helpers/_all.sass";
+@import "bulma/sass/base/_all.sass";
+@import "bulma/sass/components/card.sass";
+@import "bulma/sass/elements/container.sass";
+@import "bulma/sass/elements/content.sass";
+@import "bulma/sass/elements/image.sass";
+@import "bulma/sass/elements/table.sass";
+@import "bulma/sass/elements/title.sass";
+@import "bulma/sass/grid/columns.sass";
+@import "bulma/sass/layout/section.sass";
 
 .reading-data-table {
   td, th {
@@ -13,15 +23,3 @@ $gap: 192px;
     padding-left: 0;
   }
 }
-
-/*
-@import "bulma/sass/utilities/_all.sass";
-@import "bulma/sass/base/_all.sass";
-@import "bulma/sass/components/card.sass";
-@import "bulma/sass/elements/container.sass";
-@import "bulma/sass/elements/content.sass";
-@import "bulma/sass/elements/image.sass";
-@import "bulma/sass/elements/title.sass";
-@import "bulma/sass/grid/columns.sass";
-@import "bulma/sass/layout/section.sass";
-*/
