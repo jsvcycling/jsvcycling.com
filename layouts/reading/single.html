@@ -34,7 +34,13 @@
         </tr>
         <tr>
           <th>End Date:</th>
-          <td>{{ dateFormat "January 2, 2006" .Params.EndDate }}</td>
+          <td>
+            {{- if .Params.EndDate }}
+              {{ dateFormat "January 2, 2006" .Params.EndDate }}
+            {{- else }}
+              In Progress
+            {{- end }}
+          </td>
         </tr>
         <tr>
           <th>My Rating:</th>

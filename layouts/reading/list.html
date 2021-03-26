@@ -1,0 +1,29 @@
+  {{- define "main" }}
+    {{- $InProgress := where .Pages ".Params.date" "eq" nil }}
+    {{- $Completed := where .Pages ".Params.date" "ne" nil }}
+
+    <section>
+      <h1 class="title">Reading List</h1>
+
+      <hr />
+
+      <h2 class="title is-3">In Progress</h2>
+      <section class="content">
+        <ul>
+          {{- range $InProgress.ByTitle }}
+            <li><a href="{{ .Permalink }}"><strong>{{ .Title }}</strong></a> by {{ .Params.Author }}</li>
+          {{- end }}
+        </ul>
+      </section>
+      {{- range $Completed.GroupByParamDate "endDate" "2006" }}
+        <h2 class="title is-3">{{ .Key }}</h2>
+        <section class="content">
+          <ul>
+            {{- range .Pages.ByTitle }}
+              <li><a href="{{ .Permalink }}"><strong>{{ .Title }}</strong></a> by {{ .Params.Author }}</li>
+            {{- end }}
+          </ul>
+        </section>
+      {{- end }}
+    </section>
+  {{- end }}
