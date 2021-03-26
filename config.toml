@@ -17,7 +17,7 @@ mainSections = ["posts"]
 
 [permalinks]
 posts = "/posts/:year/:month/:slug"
-reading = "/reading/:year/:slug"
+reading = "/reading/:slug"
 
 [blackfriday]
 hrefTargetBlank = true
