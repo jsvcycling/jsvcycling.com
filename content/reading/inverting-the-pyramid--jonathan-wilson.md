@@ -2,7 +2,7 @@
 title = "Inverting the Pyramid: The History of Soccer Tactics"
 slug = "inverting-the-pyramid"
 author = "Jonathan Wilson"
-categories = ["Soccer"]
+categories = ["Soccer", "Sports History"]
 isFiction = false
 publisher = "Nation Books"
 bookPublishDate = "2013-11-05"
