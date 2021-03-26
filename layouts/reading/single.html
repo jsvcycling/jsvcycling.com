@@ -4,7 +4,7 @@
 
     {{- $cover_uri := printf "img/reading/%s-cover.jpg" .Slug }}
     {{- $cover := resources.Get $cover_uri }}
-    {{- $cover = $cover.Resize "x300 q100" }}
+    {{- $cover = $cover.Resize "x256 q100" }}
     <img class="image is-pulled-left px-2 py-1" src="{{ $cover.Permalink }}" />
     <p class="is-italic has-text-justified">{{ delimit .Params.Synopsis "<br /><br />" }}</p>
 
