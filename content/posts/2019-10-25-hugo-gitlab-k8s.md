@@ -32,7 +32,34 @@ deployed. If not, go create one now, I'll wait. Done yet? Good. The first thing
 we'll need to do is create a `Dockerfile` that will build and publish our
 site. Here's a sample one:
 
-{{< gist jsvcycling 6a535e739cbde2b182f662f332e07876 "Dockerfile" >}}
+```Dockerfile
+#
+# Build
+#
+FROM alpine:latest AS build
+
+RUN apk add --no-cache hugo git
+
+WORKDIR /site
+COPY . .
+
+RUN git submodule update --init && hugo
+
+#
+# Deploy
+#
+FROM nginx:alpine
+
+WORKDIR /usr/share/nginx/html
+
+RUN rm -fr *.??* && sed -i 's/80/5000/g' /etc/nginx/conf.d/default.conf
+COPY --from=build /site/public /usr/share/nginx/html
+
+EXPOSE 5000
+STOPSIGNAL SIGTERM
+
+CMD ["nginx", "-g", "daemon off;"]
+```
 
 We can see that the file is broken up into two parts: build and deploy. This is
 to limit the size of our deployment image since we don't need git or hugo in
@@ -45,7 +72,46 @@ rather than the more standard `80`.[^1]
 With the Dockerfile out of the way, we need to write a `.gitlab-ci.yml` to
 override some of the defaults from the Auto DevOps pipeline.
 
-{{< gist jsvcycling 6a535e739cbde2b182f662f332e07876 ".gitlab-ci.yml" >}}
+```yaml
+include:
+  - template: Auto-DevOps.gitlab-ci.yml
+
+.auto-deploy:
+  image: "registry.gitlab.com/gitlab-org/cluster-integration/auto-deploy-image:v0.1.0"
+
+.production: &production_template
+  extends: .auto-deploy
+  stage: production
+  script:
+    - auto-deploy check_kube_domain
+    - auto-deploy download_chart
+    - auto-deploy ensure_namespace
+    - auto-deploy initialize_tiller
+    - auto-deploy create_secret
+    - auto-deploy deploy
+    - auto-deploy delete canary
+    - auto-deploy delete rollout
+    - auto-deploy persist_environment_url
+  environment:
+    name: production
+    url: http://example.com
+  artifacts:
+    paths: [environment_url.txt]
+
+
+production:
+  <<: *production_template
+  only:
+    refs:
+      - master
+    kubernetes: active
+  except:
+    variables:
+      - $STAGING_ENABLED
+      - $CANARY_ENABLED
+      - $INCREMENTAL_ROLLOUT_ENABLED
+      - $INCREMENTAL_ROLLOUT_MODE
+```
 
 I honestly don't know what most of this stuff does since it was pulled out of
 the [GitLab code][gitlab-code] but I know it works. The big thing here is line

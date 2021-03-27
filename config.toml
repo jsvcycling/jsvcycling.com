@@ -3,8 +3,8 @@ languageCode = "en-us"
 title = "Joshua Vega's Blog"
 copyright = "2019-2021 Joshua Vega. All Rights Reserved."
 pygmentsCodeFences = true
-pygmentsStyle = "pygments"
-pygmentsOptions="linenos=table"
+pygmentsStyle = "borland"
+pygmentsOptions="linenos=true"
 
 [markup.goldmark.renderer]
 unsafe = true
