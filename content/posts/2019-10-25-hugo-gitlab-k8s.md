@@ -98,7 +98,6 @@ include:
   artifacts:
     paths: [environment_url.txt]
 
-
 production:
   <<: *production_template
   only:
