@@ -1,5 +1,5 @@
 +++
-title = "The Man Who Solved the Market: How Jim Simmons Launched the Quant Revolution"
+title = "The Man Who Solved the Market: How Jim Simons Launched the Quant Revolution"
 slug = "the-man-who-solved-the-market"
 authors = ["Gregory Zuckerman"]
 categories = ["Biography", "Business", "Economics", "Finance", "Technology"]
