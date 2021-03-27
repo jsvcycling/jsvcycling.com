@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -12,7 +12,7 @@
 
     <title>{{ if not .IsHome }}{{ .Title }} | {{end}}{{ .Site.Title }}</title>
 
-    {{- $style := resources.Get "sass/main.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+    {{- $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
 
     <base href="{{ .Permalink }}">
@@ -22,7 +22,7 @@
     <link rel="shortcut icon" type="image/png" href="{{ $favicon.Permalink }}">
   </head>
 
-  <body class="is-family-monospace">
+  <body>
     <br />
     <div class="container">
       <div class="columns section">
