@@ -1,7 +1,7 @@
 +++
 title = "Anxious People"
 slug = "anxious-people"
-author = "Fredrik Backman"
+authors = ["Fredrik Backman"]
 categories = ["Friendship Fiction"]
 isFiction = true
 publisher = "Simon & Schuster Audio"

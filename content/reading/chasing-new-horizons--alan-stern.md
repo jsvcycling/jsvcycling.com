@@ -1,7 +1,7 @@
 +++
-title = ""
-slug = ""
-authors = []
+title = "Chasing New Horizons"
+slug = "chasing-new-horizons"
+authors = ["Alan Stern", "David Grinspoon"]
 categories = []
 isFiction = true
 publisher = ""

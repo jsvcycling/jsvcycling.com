@@ -1,15 +1,27 @@
 {{ define "main" }}
   <article>
-    <h1 class="title">{{ .Title }} <span class="is-size-4">by {{ .Params.Author }}</span></h1>
+    <h1 class="title">
+      {{ .Title }}
+      <span class="is-size-4"> by
+        {{- if (gt (len .Params.Authors) 0) }}
+          {{ delimit .Params.Authors ", " " and " }}
+        {{- else }}
+          <span class="is-italic">Unknown</span>
+        {{- end }}
+      </span>
+    </h1>
 
-    {{- $cover_uri := printf "img/reading/%s-cover.jpg" .Slug }}
-    {{- $cover := resources.Get $cover_uri }}
+    {{- $cover := resources.Get (printf "img/reading/%s-cover.jpg" .Slug) }}
     {{- $cover = $cover.Resize "x256 q100" }}
     <img class="image is-pulled-left px-2 py-1" src="{{ $cover.Permalink }}" />
     <p class="is-italic has-text-justified">{{ delimit .Params.Synopsis "<br /><br />" }}</p>
 
     <table class="table is-narrow my-4 reading-data-table">
       <tbody>
+        <tr>
+          <th>Type:</th>
+          <td>{{- cond .Params.IsFiction "Fiction" "Non-Fiction" }}</td>
+        </tr>
         <tr>
           <th>Category:</th>
           <td>{{ delimit .Params.Categories ", " }}</td>
@@ -44,13 +56,7 @@
         </tr>
         <tr>
           <th>My Rating:</th>
-          <td>
-            {{- if .Params.Rating }}
-              {{ .Params.Rating }}
-            {{- else }}
-              --
-            {{- end }}/10
-          </td>
+          <td>{{- cond (gt .Params.Rating 0) .Params.Rating "--" }}/10</td>
         </tr>
       </tbody>
     </table>

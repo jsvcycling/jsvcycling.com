@@ -1,7 +1,7 @@
 +++
 title = "The Weather Machine: A Journey Inside the Forecast"
 slug = "the-weather-machine"
-author = "Andrew Blum"
+authors = ["Andrew Blum"]
 categories = ["Nature", "Science"]
 isFiction = false
 publisher = "Ecco"

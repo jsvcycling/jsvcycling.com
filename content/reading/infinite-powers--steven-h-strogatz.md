@@ -1,7 +1,7 @@
 +++
 title = "Infinite Powers: How Calculus Reveals the Secrets of the Universe"
 slug = "infinite-powers"
-author = "Steven H. Strogatz"
+authors = ["Steven H. Strogatz"]
 categories = ["Mathematics", "Science"]
 isFiction = false
 publisher = "Houghton Mifflin Harcourt"

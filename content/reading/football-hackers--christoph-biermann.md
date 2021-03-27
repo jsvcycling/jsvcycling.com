@@ -1,7 +1,7 @@
 +++
 title = "Football Hackers: The Science and Art of a Data Revolution"
 slug = "football-hackers"
-author = "Christoph Biermann"
+authors = ["Christoph Biermann"]
 categories = ["Mathematics", "Sports", "Science"]
 isFiction = false
 publisher = "Blink Publishing"

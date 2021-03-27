@@ -1,7 +1,7 @@
 +++
 title = "The Signal and the Noise: Why So Many Predictions Fail -- But Some Don't"
 slug = "the-signal-and-the-noise"
-author = "Nate Silver"
+authors = ["Nate Silver"]
 categories = []
 isFiction = false
 publisher = "Penguin"

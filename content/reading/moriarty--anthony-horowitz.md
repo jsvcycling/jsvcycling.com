@@ -1,7 +1,7 @@
 +++
 title = "Moriarty"
 slug = "moriarty"
-author = "Anthony Horowitz"
+authors = ["Anthony Horowitz"]
 categories = ["Historical Fiction", "Mystery"]
 isFiction = true
 publisher = "HarperCollins"

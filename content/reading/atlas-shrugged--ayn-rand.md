@@ -1,7 +1,7 @@
 +++
 title = "Altas Shrugged"
 slug = "atlas-shrugged"
-author = "Ayn Rand"
+authors = ["Ayn Rand"]
 categories = []
 isFiction = true
 publisher = "Signet"
