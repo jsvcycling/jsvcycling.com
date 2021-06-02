@@ -9,8 +9,8 @@ bookPublishDate = "2014-12-09"
 language = "English"
 format = "Audiobook (9 hours, 55 minutes)"
 startDate = "2021-01-19"
-endDate = ""
-rating = 0
+endDate = "2021-06-02"
+rating = 8
 synopsis = [
   "Sherlock Holmes is dead.",
   "Days after Holmes and his arch-enemy Moriarty fall to their doom at the Reichenbach Falls, Pinkerton agent Frederick Chase arrives in Europe from New York. The death of Moriarty has created a poisonous vacuum which has been swiftly filled by a fiendish new criminal mastermind who has risen to take his place.",
