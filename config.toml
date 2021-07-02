@@ -48,15 +48,25 @@ identifier = "github"
 name = "GitHub"
 title = "GitHub"
 url = "https://github.com/jsvcycling"
+weight = 1
 
 [[menu.social]]
 identifier = "gitlab"
 name = "GitLab"
 title = "GitLab"
 url = "https://gitlab.com/jsvcycling"
+weight = 2
 
 [[menu.social]]
 identifier = "twitter"
 name = "Twitter"
 title = "Twitter"
 url = "https://twitter.com/jsvcycling"
+weight = 3
+
+[[menu.social]]
+identifier = "pgp"
+name = "PGP Public Key"
+title = "PGP Public Key"
+url = "/publickey.txt"
+weight = 4
