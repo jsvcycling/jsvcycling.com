@@ -3,6 +3,10 @@
 $gap: 256px;
 
 @import "bulma/sass/utilities/_all.sass";
+
+$family-primary: $family-monospace;
+$content-pre-padding: 0.5em 0.25em;
+
 @import "bulma/sass/base/_all.sass";
 @import "bulma/sass/components/card.sass";
 @import "bulma/sass/elements/container.sass";
@@ -11,3 +15,7 @@ $gap: 256px;
 @import "bulma/sass/elements/title.sass";
 @import "bulma/sass/grid/columns.sass";
 @import "bulma/sass/layout/section.sass";
+
+.highlight {
+	margin: 1em 0em;
+}
