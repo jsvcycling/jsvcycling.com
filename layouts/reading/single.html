@@ -1,0 +1,74 @@
+{{ define "main" }}
+  <article>
+    <h1 class="title">
+      {{ .Title }}
+      <span class="is-size-4"> by
+        {{- if (gt (len .Params.Authors) 0) }}
+          {{ delimit .Params.Authors ", " " and " }}
+        {{- else }}
+          <span class="is-italic">Unknown</span>
+        {{- end }}
+      </span>
+    </h1>
+
+    {{- $cover := resources.Get (printf "img/reading/%s-cover.jpg" .Slug) }}
+    {{- $cover = $cover.Resize "x256 q100" }}
+    <img class="image is-pulled-left px-2 py-1" src="{{ $cover.Permalink }}" />
+    <p class="is-italic has-text-justified">{{ delimit .Params.Synopsis "<br /><br />" }}</p>
+
+    <table class="table is-narrow my-4 reading-data-table">
+      <tbody>
+        <tr>
+          <th>Type:</th>
+          <td>{{- cond .Params.IsFiction "Fiction" "Non-Fiction" }}</td>
+        </tr>
+        <tr>
+          <th>Category:</th>
+          <td>{{ delimit .Params.Categories ", " }}</td>
+        </tr>
+        <tr>
+          <th>Publisher:</th>
+          <td>{{ .Params.Publisher }} ({{ dateFormat "January 2, 2006" .Params.BookPublishDate }})</td>
+        </tr>
+        <tr>
+          <th>Language:</th>
+          <td>{{ .Params.Language }}</td>
+        </tr>
+        <tr>
+          <th>Format:</th>
+          <td>{{ .Params.Format }}</td>
+        </tr>
+        <tr><th /><td /></tr>
+        <tr><th /><td /></tr>
+        <tr>
+          <th>Start Date:</th>
+          <td>{{ dateFormat "January 2, 2006" .Params.StartDate }}</td>
+        </tr>
+        <tr>
+          <th>End Date:</th>
+          <td>
+            {{- if .Params.EndDate }}
+              {{ dateFormat "January 2, 2006" .Params.EndDate }}
+            {{- else }}
+              In Progress
+            {{- end }}
+          </td>
+        </tr>
+        <tr>
+          <th>My Rating:</th>
+          <td>{{- cond (gt .Params.Rating 0) .Params.Rating "--" }}/10</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <hr />
+
+    <section class="content">
+      {{- if .Content }}
+        {{- .Content }}
+      {{- else }}
+        <p class="is-italic">There's nothing here yet.</p>
+      {{- end }}
+    </section>
+  </article>
+{{ end }}

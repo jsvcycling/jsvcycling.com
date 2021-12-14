@@ -12,10 +12,23 @@ $content-pre-padding: 0.5em 0.25em;
 @import "bulma/sass/elements/container.sass";
 @import "bulma/sass/elements/content.sass";
 @import "bulma/sass/elements/image.sass";
+@import "bulma/sass/elements/table.sass";
 @import "bulma/sass/elements/title.sass";
 @import "bulma/sass/grid/columns.sass";
 @import "bulma/sass/layout/section.sass";
 
-.highlight {
-	margin: 1em 0em;
+.reading-data-table {
+  td, th {
+    border: 0;
+  }
+
+  th:first-child {
+    padding-left: 0;
+  }
+}
+
+pre {
+	margin: 0;
+	padding: 0 !important;
+	padding-bottom: 1rem !important;
 }
