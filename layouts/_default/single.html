@@ -1,17 +1,18 @@
-    {{define "main" }}
-    <article class="content">
-      <h1 class="title">{{ .Title }}</h1>
-      <em>
-        {{- if .Date }}
-          Published on {{ .Date.Format "2006-01-02" }}
-          on <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a> -
-        {{- end }}
-        {{- if .Params.hasPermalink }}
-          <a href="{{ .URL }}">Permalink</a>
-        {{- end }}
-      </em>
+{{ define "main" }}
+  <article class="content">
+    <h1 class="title">{{ .Title }}</h1>
+    <em>
+      {{- if .Date }}
+        Published on {{ .Date.Format "2006-01-02" }}
+        on <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a> -
+      {{- end }}
+      {{- if .Params.hasPermalink }}
+        <a href="{{ .Permalink }}">Permalink</a>
+      {{- end }}
+    </em>
+  
+    <hr />
 
-      <hr />
-      {{- .Content }}
-    </article>
-    {{ end }}
+    {{- .Content }}
+  </article>
+{{ end }}

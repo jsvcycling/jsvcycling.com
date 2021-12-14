@@ -1,20 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-    {{- if .IsHome }}
-    <meta name="description" content="{{ .Site.Params.Description }}">
-    {{- else if .Description }}
-    <meta name="description" content="{{ .Description }}">
+    {{- if .Description }}
+      <meta name="description" content="{{ .Description }}">
+    {{- else }}
+      <meta name="description" content="{{ .Site.Params.Description }}">
     {{- end }}
-
-    {{ hugo.Generator }}
 
     <title>{{ if not .IsHome }}{{ .Title }} | {{end}}{{ .Site.Title }}</title>
 
-    {{- $style := resources.Get "sass/main.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+    {{- $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
 
     <base href="{{ .Permalink }}">
@@ -29,7 +27,7 @@
     <div class="container">
       <div class="columns section">
         <div class="column">
-          {{- block "main" . }}{{ end }}
+          {{- block "main" . }}{{- end }}
         </div>
 
         <div class="column is-one-third">
@@ -45,16 +43,16 @@
                 <p class="has-text-centered">{{ .Site.Params.Tagline }}</p>
                 <hr />
                 {{- range .Site.Menus.main }}
-                <p><a href="{{ .URL }}">{{ .Name }}</a></p>
+                  <p><a href="{{ .URL }}">{{ .Name }}</a></p>
                 {{- end }}
                 <hr />
                 {{- range .Site.Menus.social }}
-                <p><a href="{{ .URL }}" target="_blank">{{ .Name }}</a></p>
+                  <p><a href="{{ .URL }}" target="_blank">{{ .Name }}</a></p>
                 {{- end }}
               </div>
             </div>
             <div class="card-footer">
-              <div class="card-footer-item">
+              <div class="card-footer-item is-size-7 is-italic">
                 {{ .Site.Copyright }}
               </div>
             </div>
