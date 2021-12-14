@@ -5,7 +5,7 @@ variables:
 
 pages:
     script:
-    - hugo minify
+    - hugo --minify
 
     artifacts:
         paths:
