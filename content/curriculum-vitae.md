@@ -31,6 +31,9 @@ hasPermalink: false
 
 ## Certifications
 
+[**AWS Certified Cloud Practitioner**](https://www.credly.com/badges/9850e020-7157-4026-bc39-55f986ea22e7) (Jan 2022 -- Jan 2025)<br />
+*Amazon Web Services*
+
 [**Apache Cassandra 3.x Developer Associate**](https://academy.datastax.com/certs/lookup/9d17aae0-c16a-4f77-8757-44333673bab4) (May 2020 -- )<br />
 *DataStax*
 
