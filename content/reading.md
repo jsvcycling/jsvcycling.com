@@ -62,3 +62,70 @@ title: "Reading List"
 * **A People's History of Computing in the United States** by Joy Lisi Rankin
 * **Soccernomics: Why England Loses; Why German, Spain, and France Win; and Why One Day Japan, Iraq, and the United States Will Become Kings of the World's Most Popular Sport** by Simon Kuper and Stefan Szymanski
 * **The Barcelona Inheritance: The Evolution of Winning Soccer Tactics from Cruyff to Guardiola** by Jonathan Wilson
+
+<hr>
+
+## 2018
+
+### Fiction
+
+* **Artemis** by Andy Weir
+* **The Panther** by Nelson DeMille
+* **The Girl on the Train** by Paula Hawkins
+
+### Non-Fiction
+
+* **Dark Territory: The Secret History of Cyber War** by Fred Kaplan
+* **The Psychology of the Internet** by Patricia Wallace
+* **Soccermatics: Mathematical Adventures in the Beautiful Game** by David Sumpter
+
+<hr>
+
+## 2017
+
+### Fiction
+
+* **Rogue Lawyer** by John Grisham
+* **Armada** by Ernest Cline
+* **Count Zero** by William Gibson
+
+### Non-Fiction
+
+*None*
+
+<hr>
+
+## 2016
+
+### Fiction
+
+* **Lock In** by John Scalzi
+* **The Man in the High Castle** by Philip K. Dick
+* **The Geneva Strategy** by Jamie Freveletti
+* **The Stranger** by Albert Camus
+* **Do Androids Dream of Electric Sheep?** by Philip K. Dick
+* **2001: A Space Odyssey** by Arthur C. Clark
+* **Total Recall** by Philip K. Dick
+* **Neuromancer** by William Gibson
+* **Ubik** by Philip K. Dick
+
+### Non-Fiction
+
+* **American Sniper: The Autobiography of the Most Lethal Sniper in U.S. Military History** by Chris Kyle
+
+<hr>
+
+## 2015
+
+### Fiction
+
+* **The Martian** by Andy Weir
+* **The Giver** by Lois Lowry
+* **Gathering Blue** by Lois Lowry
+* **The Eye of Minds** by James Dashner
+
+### Non-Fiction
+
+*None*
+
+<hr>
