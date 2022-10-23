@@ -1,0 +1,109 @@
+body {
+	background-color: white;
+	font-size: 18px;
+	padding: 0 0.5rem;
+}
+
+body, a, a:visited {
+	color: black;
+}
+
+body, h1, h2, h3, ul, li {
+	margin: 0;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 28px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h3, ul {
+	margin-bottom: 1rem;
+}
+
+p {
+	margin-top: 0;
+	padding-bottom: 0.25rem;
+}
+
+p code {
+	border-radius: 0.25rem;
+	padding: 0.1rem 0.25rem;
+}
+
+pre {
+	border-radius: 0.5rem;
+	padding: 0.5rem;
+}
+
+p code, pre {
+	background-color: gainsboro;
+	font-family: monospace;
+	font-size: 16px;
+}
+
+table#post-list {
+	margin: 2rem 0;
+}
+
+td p.post-date, td p.post-link {
+	margin: 0;
+	padding: 0;
+}
+
+td p.post-date {
+	padding-right: 0.5rem;
+}
+
+td p.post-link {
+	padding-left: 0.5rem;
+}
+
+section#links {
+	padding-top: 1rem;
+}
+
+section#content p {
+	text-align: justify;
+}
+
+@media screen and (min-width: 900px) {
+	body {
+		padding: 0 10rem;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	body {
+		padding: 0 15rem;
+	}
+}
+
+@media screen and (min-width: 1920px) {
+	body {
+		width: 1280px;
+		margin: auto;
+		padding: 0;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: black;
+	}
+
+	body, a, a:visited {
+		color: ghostwhite;
+	}
+
+	p code, pre {
+		background-color: dimgray;
+	}
+}

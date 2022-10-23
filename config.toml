@@ -1,10 +1,11 @@
 baseURL = "https://jsvcycling.com/"
-languageCode = "en-us"
-title = "Joshua Vega's Blog"
-copyright = "2019-2021 Joshua Vega. All Rights Reserved."
-pygmentsCodeFences = true
-pygmentsStyle = "borland"
-pygmentsOptions="linenos=true"
+languageCode = "en-US"
+title = "Joshua Vega"
+copyright = "2019-2022 Joshua Vega. All Rights Reserved."
+
+[markup.highlight]
+codeFences = false
+style = "borland"
 
 [markup.goldmark.renderer]
 unsafe = true
@@ -12,61 +13,10 @@ unsafe = true
 [params]
 author = "Joshua Vega"
 description = "The personal website of Joshua Vega."
-tagline = "I write code and stuff..."
 mainSections = ["posts"]
 
 [permalinks]
 posts = "/posts/:year/:month/:slug"
-reading = "/reading/:slug"
 
 [blackfriday]
 hrefTargetBlank = true
-
-[[menu.main]]
-identifier = "home"
-name = "Home"
-title = "Home"
-url = "/"
-weight = 1
-
-[[menu.main]]
-identifier = "reading"
-name = "Reading List"
-title = "Reading List"
-url = "/reading/"
-weight = 2
-
-[[menu.main]]
-identifier = "curriculum-vitae"
-name = "Curriculum Vitae"
-title = "Curriculum Vitae"
-url = "/curriculum-vitae/"
-weight = 3
-
-[[menu.social]]
-identifier = "github"
-name = "GitHub"
-title = "GitHub"
-url = "https://github.com/jsvcycling"
-weight = 1
-
-[[menu.social]]
-identifier = "gitlab"
-name = "GitLab"
-title = "GitLab"
-url = "https://gitlab.com/jsvcycling"
-weight = 2
-
-[[menu.social]]
-identifier = "twitter"
-name = "Twitter"
-title = "Twitter"
-url = "https://twitter.com/jsvcycling"
-weight = 3
-
-[[menu.social]]
-identifier = "pgp"
-name = "PGP Public Key"
-title = "PGP Public Key"
-url = "/publickey.txt"
-weight = 4

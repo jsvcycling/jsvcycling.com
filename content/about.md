@@ -1,6 +1,5 @@
 ---
-title: "Curriculum Vitae"
-hasPermalink: false
+title: "About"
 ---
 
 ## Experience
@@ -14,7 +13,7 @@ hasPermalink: false
 **Associate Consultant, Software Engineer I** (February 2019 -- April 2020)<br />
 *Daugherty Business Solutions*, Franklin Lakes, NJ
 
-**CS Teaching Assistant** (Spring 2019)<br />
+**CS Teaching Assistant** (Spring 2018)<br />
 *New Jersey Institute of Technology*, Newark, NJ
 
 **Research Assistant** (April 2017 -- December 2018)<br />
@@ -29,6 +28,8 @@ hasPermalink: false
 **Research Intern** (July 2013 -- January 2015)<br />
 *New York University*, New York, NY
 
+<hr>
+
 ## Certifications
 
 [**AWS Certified Cloud Practitioner**](https://www.credly.com/badges/9850e020-7157-4026-bc39-55f986ea22e7) (Jan 2022 -- Jan 2025)<br />
@@ -40,10 +41,14 @@ hasPermalink: false
 [**ICAgile Certified Professional**](https://www.icagile.com/Certification/Verify-Credentials/ctl/UserDetails/mid/697/uid/6a773626-1675-4775-bb5e-b1bc48f499a4) (May 2019 -- )<br />
 *ICAgile*
 
+<hr>
+
 ## Achievements
 
 **Eagle Scout Award** (2014)<br />
 *Boy Scouts of America*
+
+<hr>
 
 ## Education
 
@@ -52,6 +57,8 @@ hasPermalink: false
 
 **B.S. Computer Science** (September 2015 -- December 2018)<br />
 *New Jersey Institute of Technology*, Newark, NJ<br />
+
+<hr>
 
 ## Publications
 
@@ -62,6 +69,8 @@ hasPermalink: false
 [Developing a Solar Eclipse Simulation for Greater Good][2] (2017)
 
 [HamSCI and the 2017 Total Solar Eclipse][1] (2017)
+
+<hr>
 
 [4]: http://dx.doi.org/10.1029/2018SW002008
 [3]: http://dx.doi.org/10.1029/2018GL077324

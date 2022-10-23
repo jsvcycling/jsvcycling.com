@@ -2,7 +2,6 @@
 title: "Hugo, GitLab, and Kubernetes"
 slug: hugo-gitlab-k8s
 date: 2019-10-25T18:35:45-04:00
-hasPermalink: true
 ---
 
 The website you're currently reading is a statically generated site running on a
