@@ -1,12 +1,13 @@
-image: klakegg/hugo
+image: registry.gitlab.com/pages/hugo/hugo:latest
+
+variables:
+    HUGO_ENV: production
 
 pages:
-    script:
-    - hugo --minify
-
     artifacts:
         paths:
         - public
-
+    script:
+    - hugo --minify
     only:
-    - master
+    - main
