@@ -1,7 +1,6 @@
 ---
 title: "A Weekend with Google Stadia"
 date: 2019-11-26T00:00:00
-hasPermalink: true
 ---
 
 This weekend, like many people across the country, I received access to Google's

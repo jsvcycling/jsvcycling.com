@@ -1,7 +1,6 @@
 ---
 title: "A Week with the Moonlander"
 date: 2020-11-03T00:00:00
-hasPermalink: true
 ---
 
 Before I begin, I'd like to apologize to anyone who's expecting this post to be

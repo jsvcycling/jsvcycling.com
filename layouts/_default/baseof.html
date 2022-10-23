@@ -1,64 +1,38 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
 
-    {{- if .Description }}
-      <meta name="description" content="{{ .Description }}">
-    {{- else }}
-      <meta name="description" content="{{ .Site.Params.Description }}">
-    {{- end }}
+	{{- if .Description }}
+	<meta name="description" content="{{ .Description }}">
+	{{- else }}
+	<meta name="description" content="{{ .Site.Params.Description }}">
+	{{- end }}
 
-    <title>{{ if not .IsHome }}{{ .Title }} | {{end}}{{ .Site.Title }}</title>
+	<title>{{ if not .IsHome }}{{ .Title }} | {{end}}{{ .Site.Title }}</title>
 
-    {{- $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
-    <link rel="stylesheet" href="{{ $style.Permalink }}">
+	{{- $style := resources.Get "css/main.css" | minify | fingerprint }}
+	<link rel="stylesheet" href="{{ $style.Permalink }}">
 
-    <base href="{{ .Permalink }}">
-    <link rel="canonical" href="{{ .Permalink }}">
+	<base href="{{ .Permalink }}">
+	<link rel="canonical" href="{{ .Permalink }}">
 
-    {{- $favicon := resources.Get "img/profile.png" }}
-    <link rel="shortcut icon" type="image/png" href="{{ $favicon.Permalink }}">
-  </head>
+	{{- $favicon := resources.Get "img/profile.png" }}
+	<link rel="shortcut icon" type="image/png" href="{{ $favicon.Permalink }}">
+</head>
+<body>
+	<section id="links">
+		<p>
+			<strong>{{ .Site.Title }}</strong> ===&gt;
+			<a href="/">Home</a> |
+			<a href="/reading/">Reading List</a> |
+			<a href="/about/">About</a>
+		</p>
+	</section>
 
-  <body>
-    <br />
-    <div class="container">
-      <div class="columns section">
-        <div class="column">
-          {{- block "main" . }}{{- end }}
-        </div>
-
-        <div class="column is-one-third">
-          <div class="card">
-            <div class="card-content">
-              <div class="content">
-                <figure class="image is-128x128" style="margin: auto; padding: auto;">
-                  {{- $profile := resources.Get "img/profile.jpg" }}
-                  {{- $profile = $profile.Resize "128x128 q100" }}
-                  <img class="is-rounded" src="{{ $profile.Permalink }}">
-                </figure>
-                <hr />
-                <p class="has-text-centered">{{ .Site.Params.Tagline }}</p>
-                <hr />
-                {{- range .Site.Menus.main }}
-                  <p><a href="{{ .URL }}">{{ .Name }}</a></p>
-                {{- end }}
-                <hr />
-                {{- range .Site.Menus.social }}
-                  <p><a href="{{ .URL }}" target="_blank">{{ .Name }}</a></p>
-                {{- end }}
-              </div>
-            </div>
-            <div class="card-footer">
-              <div class="card-footer-item is-size-7 is-italic">
-                {{ .Site.Copyright }}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>
+	<section id="content">
+		{{- block "main" . }}{{- end }}
+	</section>
+</body>
 </html>
