@@ -1,6 +1,11 @@
+@font-face {
+	font-family: Newsreader;
+	src: url("/fonts/newsreader.woff");
+}
+
 body {
 	background-color: white;
-	font-family: serif;
+	font-family: Newsreader, serif;
 	font-size: 18px;
 	padding: 0 0.5rem;
 }
