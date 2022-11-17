@@ -14,6 +14,7 @@ title: "Reading List"
 
 ### Non-Fiction
 
+* **Cuba: An American History** by Ada Ferrer
 * **The Anthropocene Reviewed** by John Green
 
 <hr>
