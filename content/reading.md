@@ -11,6 +11,7 @@ title: "Reading List"
 * **Project Hail Mary** by Andy Weir
 * **The Hobbit** by J.R.R. Tolkien
 * **The Midnight Library** by Matt Haig
+* **The Paris Apartment** by Lucy Foley
 
 ### Non-Fiction
 
