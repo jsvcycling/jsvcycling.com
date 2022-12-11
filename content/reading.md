@@ -7,11 +7,11 @@ title: "Reading List"
 ### Fiction
 
 * **Altas Shrugged** by Ayn Rand
+* **Book Lovers** by Emily Henry
 * **LESS** by Andrew Sean Greer
 * **Project Hail Mary** by Andy Weir
 * **The Hobbit** by J.R.R. Tolkien
 * **The Midnight Library** by Matt Haig
-* **The Paris Apartment** by Lucy Foley
 
 ### Non-Fiction
 
@@ -24,7 +24,7 @@ title: "Reading List"
 
 ### Fiction
 
-*None*
+* **The Paris Apartment** by Lucy Foley
 
 ### Non-Fiction
 
