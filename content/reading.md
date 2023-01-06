@@ -7,7 +7,6 @@ title: "Reading List"
 ### Fiction
 
 * **Altas Shrugged** by Ayn Rand
-* **Book Lovers** by Emily Henry
 * **LESS** by Andrew Sean Greer
 * **Project Hail Mary** by Andy Weir
 * **The Hobbit** by J.R.R. Tolkien
@@ -25,7 +24,7 @@ title: "Reading List"
 
 ### Fiction
 
-*None*
+* **Book Lovers** by Emily Henry
 
 ### Non-Fiction
 
