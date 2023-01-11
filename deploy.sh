@@ -4,4 +4,4 @@
 hugo
 
 # Copy the files to the server.
-rsync -rP public/ nash:/var/www/jsvcycling.com
+rsync -rP --delete-after public/ nash:/var/www/jsvcycling.com

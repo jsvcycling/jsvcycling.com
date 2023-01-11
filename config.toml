@@ -3,6 +3,8 @@ languageCode = "en-US"
 title = "Joshua Vega"
 copyright = "2019-2022 Joshua Vega. All Rights Reserved."
 
+disableKinds = ["taxonomy", "term"]
+
 [markup.highlight]
 codeFences = false
 style = "borland"
