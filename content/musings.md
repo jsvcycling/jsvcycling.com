@@ -6,7 +6,16 @@ title: Musings
 
 # January 2023
 
-*None*
+- *Tanto faz* is my favorite phrase in Portuguese so far.
+
+- *Rebate* is such an odd word that doesn't seem to have a very logical
+  etymology. I've found some things like *rebaten* from the 14th century
+  but how did we get from there to the modern meaning in shopping?
+
+- At what point does a group hug become a circle of people? Assuming you can't
+  have overlapping torsos (or layers to the hug), it seems like at six people
+  it's now a circle and no longer a hug. What are the parameters for something
+  to be called a "hug"?
 
 # December 2022
 
