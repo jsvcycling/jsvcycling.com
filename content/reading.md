@@ -10,7 +10,6 @@ title: "Reading List"
 * **LESS** by Andrew Sean Greer
 * **Project Hail Mary** by Andy Weir
 * **The Hobbit** by J.R.R. Tolkien
-* **The Midnight Library** by Matt Haig
 
 ### Non-Fiction
 
@@ -25,6 +24,7 @@ title: "Reading List"
 ### Fiction
 
 * **Book Lovers** by Emily Henry
+* **The Midnight Library** by Matt Haig
 
 ### Non-Fiction
 
