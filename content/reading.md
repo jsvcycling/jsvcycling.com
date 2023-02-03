@@ -15,7 +15,7 @@ title: "Reading List"
 
 * **Cuba: An American History** by Ada Ferrer
 * **The Anthropocene Reviewed** by John Green
-* **The SLEEP Prescription** by Aric A. Prather, PhD
+* **The Future is Analog** by David Sax
 
 <hr>
 
@@ -28,7 +28,7 @@ title: "Reading List"
 
 ### Non-Fiction
 
-*None*
+* **The SLEEP Prescription** by Aric A. Prather, PhD
 
 <hr>
 
