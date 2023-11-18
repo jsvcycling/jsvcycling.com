@@ -15,7 +15,8 @@ title: "Reading List"
 
 * **Cuba: An American History** by Ada Ferrer
 * **The Anthropocene Reviewed** by John Green
-* **The Future is Analog** by David Sax
+* **SPQR: A History of Ancient Rome** by Mary Beard
+* **American Prometheus** by Kai Bird and Martin J. Sherwin
 
 <hr>
 
@@ -28,6 +29,7 @@ title: "Reading List"
 
 ### Non-Fiction
 
+* **The Future is Analog** by David Sax
 * **The SLEEP Prescription** by Aric A. Prather, PhD
 
 <hr>
