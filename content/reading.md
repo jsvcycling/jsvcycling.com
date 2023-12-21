@@ -31,6 +31,7 @@ title: "Reading List"
 
 * **The Future is Analog** by David Sax
 * **The SLEEP Prescription** by Aric A. Prather, PhD
+* **Turing's Cathedral** by George Dyson
 
 <hr>
 
