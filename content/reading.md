@@ -15,8 +15,19 @@ title: "Reading List"
 
 * **Cuba: An American History** by Ada Ferrer
 * **The Anthropocene Reviewed** by John Green
-* **SPQR: A History of Ancient Rome** by Mary Beard
 * **American Prometheus** by Kai Bird and Martin J. Sherwin
+
+<hr>
+
+## 2024
+
+### Fiction
+
+*TBD*
+
+### Non-Fiction
+
+*TBD*
 
 <hr>
 
@@ -29,6 +40,7 @@ title: "Reading List"
 
 ### Non-Fiction
 
+* **SPQR: A History of Ancient Rome** by Mary Beard
 * **The Future is Analog** by David Sax
 * **The SLEEP Prescription** by Aric A. Prather, PhD
 * **Turing's Cathedral** by George Dyson
