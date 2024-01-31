@@ -9,7 +9,6 @@ title: "Reading List"
 * **Altas Shrugged** by Ayn Rand
 * **LESS** by Andrew Sean Greer
 * **Project Hail Mary** by Andy Weir
-* **The Hobbit** by J.R.R. Tolkien
 
 ### Non-Fiction
 
@@ -23,7 +22,7 @@ title: "Reading List"
 
 ### Fiction
 
-*TBD*
+* **The Hobbit** by J.R.R. Tolkien
 
 ### Non-Fiction
 
