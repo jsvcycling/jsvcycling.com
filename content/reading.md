@@ -9,12 +9,12 @@ title: "Reading List"
 * **Altas Shrugged** by Ayn Rand
 * **LESS** by Andrew Sean Greer
 * **Project Hail Mary** by Andy Weir
+* **The Cartographers** by Peng Shepherd
 
 ### Non-Fiction
 
 * **Cuba: An American History** by Ada Ferrer
 * **The Anthropocene Reviewed** by John Green
-* **American Prometheus** by Kai Bird and Martin J. Sherwin
 
 <hr>
 
@@ -26,7 +26,7 @@ title: "Reading List"
 
 ### Non-Fiction
 
-*TBD*
+* **American Prometheus** by Kai Bird and Martin J. Sherwin
 
 <hr>
 
