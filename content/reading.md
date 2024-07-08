@@ -27,6 +27,7 @@ title: "Reading List"
 ### Non-Fiction
 
 * **American Prometheus** by Kai Bird and Martin J. Sherwin
+* **Genius: The Life and Science of Richard Feynman** by James Gleick
 
 <hr>
 
