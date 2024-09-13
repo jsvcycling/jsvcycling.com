@@ -9,12 +9,13 @@ title: "Reading List"
 * **Altas Shrugged** by Ayn Rand
 * **LESS** by Andrew Sean Greer
 * **Project Hail Mary** by Andy Weir
-* **The Cartographers** by Peng Shepherd
 
 ### Non-Fiction
 
 * **Cuba: An American History** by Ada Ferrer
 * **The Anthropocene Reviewed** by John Green
+* **The Tycoons** by Charles R. Morris
+* **Hidden Figures** by Margot Lee Shetterly
 
 <hr>
 
@@ -23,6 +24,7 @@ title: "Reading List"
 ### Fiction
 
 * **The Hobbit** by J.R.R. Tolkien
+* **The Cartographers** by Peng Shepherd
 
 ### Non-Fiction
 
