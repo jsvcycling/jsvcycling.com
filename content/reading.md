@@ -7,13 +7,11 @@ title: "Reading List"
 ### Fiction
 
 * **Altas Shrugged** by Ayn Rand
-* **LESS** by Andrew Sean Greer
 * **Project Hail Mary** by Andy Weir
 
 ### Non-Fiction
 
 * **Cuba: An American History** by Ada Ferrer
-* **The Anthropocene Reviewed** by John Green
 * **The Tycoons** by Charles R. Morris
 * **Chip War: The Fight for the World's Most Critical Technlogy** by Chris Miller
 
