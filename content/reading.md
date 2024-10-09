@@ -15,7 +15,7 @@ title: "Reading List"
 * **Cuba: An American History** by Ada Ferrer
 * **The Anthropocene Reviewed** by John Green
 * **The Tycoons** by Charles R. Morris
-* **Hidden Figures** by Margot Lee Shetterly
+* **Chip War: The Fight for the World's Most Critical Technlogy** by Chris Miller
 
 <hr>
 
@@ -30,6 +30,7 @@ title: "Reading List"
 
 * **American Prometheus** by Kai Bird and Martin J. Sherwin
 * **Genius: The Life and Science of Richard Feynman** by James Gleick
+* **Hidden Figures** by Margot Lee Shetterly
 
 <hr>
 
