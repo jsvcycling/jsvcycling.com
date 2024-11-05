@@ -29,6 +29,7 @@ title: "Reading List"
 * **American Prometheus** by Kai Bird and Martin J. Sherwin
 * **Genius: The Life and Science of Richard Feynman** by James Gleick
 * **Hidden Figures** by Margot Lee Shetterly
+* **Start with Why: How Great Leaders Inspire Everyone to Take Action** by Simon Sinek
 
 <hr>
 
