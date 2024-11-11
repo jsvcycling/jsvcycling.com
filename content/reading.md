@@ -13,7 +13,9 @@ title: "Reading List"
 
 * **Cuba: An American History** by Ada Ferrer
 * **The Tycoons** by Charles R. Morris
-* **Chip War: The Fight for the World's Most Critical Technlogy** by Chris Miller
+* **12 Rules of Life: An Antidote to Chaos** by Jordan B. Peterson
+* **Going Infinite: The Rise and Fall of a New Tycoon** by Michael Lewis
+* **Steve Jobs** by Walter Isaacson
 
 <hr>
 
@@ -30,6 +32,7 @@ title: "Reading List"
 * **Genius: The Life and Science of Richard Feynman** by James Gleick
 * **Hidden Figures** by Margot Lee Shetterly
 * **Start with Why: How Great Leaders Inspire Everyone to Take Action** by Simon Sinek
+* **Chip War: The Fight for the World's Most Critical Technlogy** by Chris Miller
 
 <hr>
 
