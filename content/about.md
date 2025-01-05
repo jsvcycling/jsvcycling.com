@@ -4,14 +4,8 @@ title: "About"
 
 ## Experience
 
-**Consultant, Software Engineer II** (February 2021 -- Present)<br />
-*Daugherty Business Solutions*, Franklin Lakes, NJ
-
-**Consultant, Software Engineer I** (April 2020 -- February 2021)<br />
-*Daugherty Business Solutions*, Franklin Lakes, NJ
-
-**Associate Consultant, Software Engineer I** (February 2019 -- April 2020)<br />
-*Daugherty Business Solutions*, Franklin Lakes, NJ
+**Consultant, Software Engineer** (February 2019 -- Present)<br />
+*Daugherty Business Solutions*
 
 **CS Teaching Assistant** (Spring 2018)<br />
 *New Jersey Institute of Technology*, Newark, NJ
