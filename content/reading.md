@@ -12,10 +12,20 @@ title: "Reading List"
 ### Non-Fiction
 
 * **Cuba: An American History** by Ada Ferrer
-* **The Tycoons** by Charles R. Morris
 * **12 Rules of Life: An Antidote to Chaos** by Jordan B. Peterson
-* **Going Infinite: The Rise and Fall of a New Tycoon** by Michael Lewis
 * **Steve Jobs** by Walter Isaacson
+
+<hr>
+
+## 2025
+
+### Fiction
+
+_TBD_
+
+### Non-Fiction
+
+_TBD_
 
 <hr>
 
@@ -33,6 +43,8 @@ title: "Reading List"
 * **Hidden Figures** by Margot Lee Shetterly
 * **Start with Why: How Great Leaders Inspire Everyone to Take Action** by Simon Sinek
 * **Chip War: The Fight for the World's Most Critical Technlogy** by Chris Miller
+* **The Tycoons** by Charles R. Morris
+* **Going Infinite: The Rise and Fall of a New Tycoon** by Michael Lewis
 
 <hr>
 
