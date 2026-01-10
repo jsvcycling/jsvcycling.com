@@ -4,7 +4,10 @@ title: "About"
 
 ## Experience
 
-**Consultant, Software Engineer** (February 2019 -- Present)<br />
+**Lead, Software Engineer** (March 2025 -- Present)<br />
+*Prudential Financial*, Newark, NJ
+
+**Consultant, Software Engineer** (February 2019 -- March 2025)<br />
 *Daugherty Business Solutions*
 
 **CS Teaching Assistant** (Spring 2018)<br />
